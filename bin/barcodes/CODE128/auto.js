@@ -58,7 +58,7 @@ exports.default = function (string) {
 	var cLength = matchSetC(string).length;
 
 	// Select 128C if the string start with enough digits
-	if (cLength >= 2) {
+	if (cLength >= 4) {
 		newString = _constants.C_START_CHAR + autoSelectFromC(string);
 	} else {
 		// Select A/B depending on the longest match
