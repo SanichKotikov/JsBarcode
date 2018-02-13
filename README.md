@@ -5,6 +5,7 @@
 	<a href="http://travis-ci.org/lindell/JsBarcode"><img src="https://secure.travis-ci.org/lindell/JsBarcode.svg" alt="Build Status"/></a>
 	<a href="https://scrutinizer-ci.com/g/lindell/JsBarcode/?branch=master"><img src="https://scrutinizer-ci.com/g/lindell/JsBarcode/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"/></a>
 	<a href="http://packagequality.com/#?package=jsbarcode"><img src="http://npm.packagequality.com/shield/jsbarcode.svg" alt="Package Quality"/></a>
+	<a href="https://www.jsdelivr.com/package/npm/jsbarcode"><img src="https://data.jsdelivr.com/v1/package/npm/jsbarcode/badge?style=rounded" alt="CDN"></a>
 	<a href="https://github.com/lindell/JsBarcode/blob/master/MIT-LICENSE.txt"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"/></a>
 </p>
 
@@ -118,7 +119,7 @@ JsBarcode(".barcode").init();
 
 #### Retrieve the barcode values so you can render it any way you'd like
 Pass in an object which will be filled with data.
-```
+```javascript
 const data = {};
 JsBarcode(data, 'text', {...options});
 ```
@@ -143,6 +144,7 @@ Download or get the CDN link to the script:
 |  Pharmacode  |  Pharmacode  |  4.6 kB  |  [JsBarcode.pharmacode.min.js][8]  |
 |  Codabar  |  Codabar  |  4.8 kB  |  [JsBarcode.codabar.min.js][9]  |
 
+
 ### Step 2:
 Include the script in your code:
 
@@ -157,17 +159,17 @@ You are done! Go generate some barcodes :smile:
 Bower and npm:
 ----
 You can also use [Bower](http://bower.io) or [npm](https://www.npmjs.com) to install and manage the library.
-````
+````bash
 bower install jsbarcode --save
 ````
-````
+````bash
 npm install jsbarcode --save
 ````
 
 Node.js:
 ----
 #### Install with npm:
-````
+````bash
 npm install jsbarcode
 npm install canvas
 ````
@@ -228,12 +230,12 @@ JsBarcode is shared under the [MIT license](https://github.com/lindell/JsBarcode
 
 
 
-[1]: https://cdn.jsdelivr.net/jsbarcode/3.5.8/JsBarcode.all.min.js "jsdelivr all barcodes"
-[2]: https://cdn.jsdelivr.net/jsbarcode/3.5.8/barcodes/JsBarcode.code128.min.js "jsdelivr code128"
-[3]: https://cdn.jsdelivr.net/jsbarcode/3.5.8/barcodes/JsBarcode.code39.min.js "jsdelivr code39"
-[4]: https://cdn.jsdelivr.net/jsbarcode/3.5.8/barcodes/JsBarcode.ean-upc.min.js "jsdelivr ean/upc"
-[5]: https://cdn.jsdelivr.net/jsbarcode/3.5.8/barcodes/JsBarcode.itf-14.min.js "jsdelivr itf-14"
-[6]: https://cdn.jsdelivr.net/jsbarcode/3.5.8/barcodes/JsBarcode.itf.min.js "jsdelivr itf"
-[7]: https://cdn.jsdelivr.net/jsbarcode/3.5.8/barcodes/JsBarcode.msi.min.js "jsdelivr msi"
-[8]: https://cdn.jsdelivr.net/jsbarcode/3.5.8/barcodes/JsBarcode.pharmacode.min.js "jsdelivr pharmacode"
-[9]: https://cdn.jsdelivr.net/jsbarcode/3.5.8/barcodes/JsBarcode.codabar.min.js "jsdelivr codabar"
+[1]: https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/JsBarcode.all.min.js "jsdelivr all barcodes"
+[2]: https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/barcodes/JsBarcode.code128.min.js "jsdelivr code128"
+[3]: https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/barcodes/JsBarcode.code39.min.js "jsdelivr code39"
+[4]: https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/barcodes/JsBarcode.ean-upc.min.js "jsdelivr ean/upc"
+[5]: https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/barcodes/JsBarcode.itf-14.min.js "jsdelivr itf-14"
+[6]: https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/barcodes/JsBarcode.itf.min.js "jsdelivr itf"
+[7]: https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/barcodes/JsBarcode.msi.min.js "jsdelivr msi"
+[8]: https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/barcodes/JsBarcode.pharmacode.min.js "jsdelivr pharmacode"
+[9]: https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/barcodes/JsBarcode.codabar.min.js "jsdelivr codabar"
